@@ -20,7 +20,7 @@ namespace CustomFlowlayoutDemo
             ItemSize = new CGSize(ITEM_SIZE, ITEM_SIZE);
             ScrollDirection = UICollectionViewScrollDirection.Horizontal;
             // We need to adjust this to let collection view show only one row
-            SectionInset = new UIEdgeInsets(300, 0, 300, 0);
+            SectionInset = new UIEdgeInsets(200, 0, 200, 0);
             MinimumLineSpacing = 50.0f;
         }
 
